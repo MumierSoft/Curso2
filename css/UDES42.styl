@@ -1,0 +1,103 @@
+gris_oscuro=#444
+naranja=#DD4F24
+azul=#22BCE0
+
+body
+	background #E8E8E8 
+	color gris_oscuro
+	font-family Arial 
+	font-size 16px
+	transition font-size 1s
+
+footer
+	background naranja
+	border-radius 2em
+	padding 1em 0
+	text-align center
+	bottom 0
+	position absolute
+	width 100%
+	
+header
+	background gris_oscuro
+	box-shadow 0 5px 0 rgba(2,2,2,0.2)
+	border-radius 2em
+	color white
+	padding 0.5em
+	position relative
+
+.logo
+	border-right 1px solid azul
+	float left
+	width 60px
+	img
+		border-radius 2em
+		height 50px
+		width 50px
+
+.titular
+	margin 0 80px 0 70px
+
+.usuario 
+	position absolute
+	margin 0.2em
+	right 10px
+	top 10px
+
+	.avatar
+		margin 0 1.1em 0 0
+		position relative
+
+		img
+			border-radius 2em
+			width 50px
+
+
+nav 
+	background azul
+	border-left 15px solid white
+	border-radius 2em
+	font-size 25px
+	position relative
+	.menu
+		height 40px
+		margin 0
+		padding 0
+		
+		text-align center
+		li
+			display inline-block
+			align center
+			a 
+				color white
+				font-size 20px
+				padding 0 0.2em
+				margin 0 0.5em
+				text-decoration none
+				&:hover
+					background rgba(black,0.1)
+.posts
+	padding 0.5em
+		.post
+			background white
+			border-radius 0 0 0.5em 0.5em
+			box-shadow 2px 2px 10px rgba(black, 0.5)
+			color gris_oscuro
+			font-size 20px
+			margin-botton 0.5em
+				.detalles
+					height 160px
+					margin-left 130px
+					.autor
+						margin 0.5em 0 2em 0
+					.titulo
+						color gris_oscuro
+						font-size 1.1em
+						font-style italic
+						margin 0
+						padding 0.5em 0.5em 0 0
+				.imagen
+					float left
+					img
+						height 50px
+						width 50px
